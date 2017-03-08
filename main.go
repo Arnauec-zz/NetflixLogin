@@ -9,7 +9,7 @@ import (
 func main(){
 
 	client := &http.Client{}
-	resp, _ := http.NewRequest("POST", "https://www.netflix.com/es/login", strings.NewReader("email%3Ddavidestebanell01%40gmail.com%26password%3DEstebanell01%26rememberMe%3Dtrue%26flow%3DwebsiteSignUp%26mode%3Dlogin%26action%3DloginAction%26withFields%3Demail%252Cpassword%252CrememberMe%252CnextPage%26authURL%3D1488932591632.VQJ%252F7fYpQ999sQ4WuB%252FAp7hrGDA%253D%26nextPage%3D"))
+	resp, _ := http.NewRequest("POST", "https://www.netflix.com/es/login", strings.NewReader("email%3Dwhatever%40gmail.com%26password%3Dwhatever%26rememberMe%3Dtrue%26flow%3DwebsiteSignUp%26mode%3Dlogin%26action%3DloginAction%26withFields%3Demail%252Cpassword%252CrememberMe%252CnextPage%26authURL%3D1488932591632.VQJ%252F7fYpQ999sQ4WuB%252FAp7hrGDA%253D%26nextPage%3D"))
 	resp.Header.Add("Host", "www.netflix.com")
 	resp.Header.Add("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:51.0) Gecko/20100101 Firefox/51.0")
 	resp.Header.Add("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8")
