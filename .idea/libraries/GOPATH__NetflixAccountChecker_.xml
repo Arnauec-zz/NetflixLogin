@@ -3,10 +3,14 @@
     <CLASSES>
       <root url="file://$USER_HOME$/goworkspace/src/github.com" />
       <root url="file://$USER_HOME$/goworkspace/src/golang.org" />
+      <root url="file://$USER_HOME$/goworkspace/src/medbay-master" />
+      <root url="file://$USER_HOME$/goworkspace/src/hello" />
     </CLASSES>
     <SOURCES>
       <root url="file://$USER_HOME$/goworkspace/src/github.com" />
       <root url="file://$USER_HOME$/goworkspace/src/golang.org" />
+      <root url="file://$USER_HOME$/goworkspace/src/medbay-master" />
+      <root url="file://$USER_HOME$/goworkspace/src/hello" />
     </SOURCES>
     <excluded>
       <root url="file://$PROJECT_DIR$" />
